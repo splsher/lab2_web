@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moderator Page</title>
+    <link rel="stylesheet" href="../css/page.css">
+
+</head>
+
+<body class="background">
+    <header>
+        <img class="icon logo" src="../images/logo_hour.svg" alt="Logo">
+        <h2 class="heading">BookASpace</h2>
+        <div class="but">
+            <button onclick="logout()">Logout</button>
+        </div>
+    </header>
+
+    <main>
+        <div class="presentation">
+            <h2 id="username" class="heading">
+            </h2>
+            <ul>
+                <li>Full name: <span id="full-name"></span></li>
+                <li>Email: <span id="email"></span></li>
+                <li>Tel: <span id="phone"></span></li>
+            </ul>
+        </div>
+        <div class="desk">
+            <h2 class="heading">
+                All Auditorium
+            </h2>
+            <div id ="cards" class="container">
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p class="note">
+            ©2022 TakeASeat. All rights reserved
+        </p>
+        <img alt="Line" src="../images/line.svg">
+        <div class="social-media">
+            <img class="icon" alt="twitter" src="../images/twitter.svg"/>
+            <img class="icon" alt="facebook" src="../images/facebook.svg"/>
+            <img class="icon" alt="instagram" src="../images/instagram.svg"/>
+            <img class="icon" alt="linkedIn" src="../images/linkedin.svg"/>
+            <img class="icon" alt="youtube" src="../images/youtube.svg"/>
+        </div>
+    </footer>
+    <script src="/js/moderator_page.js"></script>
+</body>
+
+</html>
